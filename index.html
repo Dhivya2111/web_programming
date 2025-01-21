@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Book Haven</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Welcome to My Book Haven📓</h1>
+            <p>Step into a realm of captivating tales, deep knowledge, and unforgettable journeys. Explore and embark on an adventure with every page.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="content-card">
+            <h2>About This Page</h2>
+            <p>This website showcases a blend of personal development, creativity, and useful resources. Our goal is to provide insights, share useful tips, and offer a platform to connect.</p>
+        </section>
+
+        <section id="navigation" class="content-card">
+            <h2>Navigation</h2>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li><br>
+                    <li><a href="A1.html">Assignment 1A</a></li><br>
+                    <li><a href="A2.html">Assignment 1B</a></li><br>
+                    <li><a href="A3.html">Assignment 1C</a></li><br>
+                    <li><a href="2A.html">Assignment 2A</a></li><br>
+                    <li><a href="2B.html">Assignment 2B</a></li><br>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="blog" class="content-card">
+            <h2>Blog Pages</h2>
+            <p>Being in college, we go through upcoming schedules and vision boards of sleepless nights ahead.</p>
+            <a href="blog1.html" class="glow-on-hover">Click here to read more</a>
+            <p>But you see, my passion for books is alive!</p>
+            <p>Check out my recent binges that kept me hooked on reading.</p>
+            <a href="blog2.html" class="glow-on-hover">Click here to read more</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <section id="contact-form">
+                <h2>Contact Us</h2>
+                <form action="submit_contact_form" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit" class="glow-on-hover">Submit</button>
+                </form>
+            </section>
+            <p>&copy; 2025 My Website</p>
+        </div>
+    </footer>
+</body>
+</html>
